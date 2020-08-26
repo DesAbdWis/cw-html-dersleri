@@ -1,0 +1,115 @@
+<!-- Doctype  olması için html yazıp html 5 işaretleyelim yada ! (ünlem işaretine basaıp yaparak)-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML LESSONS DAY-2 23-08-2020</title>
+    <!-- <base href="images/"> -->
+    <style>
+        .h2tags {
+            color:crimson;
+        }
+        h1 { color:darkblue
+
+        }
+    </style>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h2 id="head">Unorder Lists</h2>
+    <!--in this lesson bir list-->
+    <!-- tüm başlıkları seçmek için ctrl + alt + aşağı ok -->
+    <!--shortcut ul>li*5{item $} press enter     -->
+    <!--  -->
+    <a href="#end">SONA GİT</a>
+        <ul style="list-style-type:circle;"> ITEM LIST
+            <li>item 1
+                <ul>
+                    <li>Sub-Item 1</li>
+                    <li>Sub-Item 2</li>
+                </ul>
+            </li>
+            <li>item 2</li>
+            <li>item 3</li>
+            <li>item 4</li>
+            <li>item 5</li>
+        </ul>
+        <hr>
+        <h2>Ordered Lists</h2>
+   <!-- Order List Düzenlemesi -->
+   <ol start="5" type="A">
+       <li>item 1</li>
+       <li>item 2
+           <ol>
+               <li>Sub-item 1</li>
+               <li>Sub-item 2</li>
+               <li>Sub-item 3</li>
+           </ol>
+       </li>
+       <li>item 3</li>
+       <li>item 4</li>
+       <li>item 5</li>
+   </ol>
+   <hr>
+<h2 class="h2tags">Definition List</h2>
+<dl>
+    <dt>Scale</dt>
+    <dd>Scele Definition</dd>
+    <dt>Sashimi</dt>
+    <dd>Sachimi Definition</dd>
+</dl>
+<hr>
+<h3>Images</h3>
+<img src="images/barney.png" width="100" alt="Barny Png">
+<img src="https://img2.pngindir.com/20180320/tge/kisspng-fred-flintstone-wilma-flintstone-barney-rubble-peb-flintstones-cartoon-characters-png-transparent-5ab1cfe4782cf0.5621837215216025324923.jpg"
+    width="100" alt="fred Çakmaktaş">
+
+    <hr>
+    <h3>Tables</h3>
+    <table border="1" style="text-align:center">
+        <thead>
+            <tr>
+                <th>Kurs Adı</th>
+                <th>Kurs Saati</th>
+                <th>Ders Adedi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>HTML</td>
+                <td>45</td>
+                <td>300</td>
+            </tr>
+            <tr>
+                <td>CSSL</td>
+                <td>35</td>
+                <td rowspan="2">200</td>
+            </tr>
+            <tr>
+                <td colspan="2">Javascript</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">TOPLAM</td>
+                <td>500</td>
+            </tr>
+        </tfoot>
+
+    </table>
+    <hr>
+<h2>Links</h2>
+<a href="https://www.imdb.com/" target="_blank">IMDB OFFICIAL WEBSITE</a>
+<br>
+<a href="index-2.html" target="_blank">Site içi Link</a>
+<br>
+<a href="images/barney.png" target="_blank">Barney Rubble</a>
+<br>
+<a href="https://en.wikipedia.org/wiki/Fred_Flintstone" target="_blank">
+    <img src="images/fred.jpg" width="120" alt="Fred Flintstone">
+</a>
+<br>
+<a href="#head" id="end">Başa Gön</a>
+</body>
+</html>
