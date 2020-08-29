@@ -1,0 +1,67 @@
+/* #p1{
+    border: 5px solid red;
+     margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 70px;
+    margin-left:60px; 
+    /* margin:50px 50px 70px 60px; 
+    /* margin:50px 30px 60px; 
+    /* margin:50px 60px; 
+    /* margin:50px; 
+    margin:auto; 
+} */
+
+body {
+    background-color: #f3f3f3;
+   
+}
+.demo-box{
+    background-color: white;
+    width: 80%;
+    margin:100px auto;
+   
+}
+.one{
+    background-color: rgb(255, 0, 0);
+    height: 50px;
+    
+}
+.two{
+    background-color: #00ff00;
+    height: 200px;
+    width: 200px;
+   
+}
+.three{
+    background-color: #0000ff;
+    height:170px;
+    width: 170px;
+    color:white;
+    padding-top: 50px;
+    padding-left: 50px;
+    box-sizing: border-box;
+    border:25px solid red;
+  
+} 
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+/* div {
+   border: 5px dotted rgb(0,255,255);
+   padding: 20px;
+   background-color: salmon;
+}
+p {
+    border: 5px solid #ffff00;
+    background-color: skyblue;
+    /* padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    /* padding:15px 20px 20px 20px;
+    /* padding: 15px 20px 30px ;
+    padding: 20px 30px; 
+    /* padding: inherit; 
+
+} */

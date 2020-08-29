@@ -1,0 +1,25 @@
+#fonts1{
+    font-family: 'Corier New', 'Coruier', monospace;
+    font-style: italic;
+    font-size: 5vw;
+}
+#font2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:200%;
+}
+#font3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:large;
+
+}
+#font4{
+    font-family: 'Nunito', sans-serif;
+    font: size 2em;
+    font-weight: bolder;
+}
+#font5{
+    font-size:2rem;
+    font-variant: small-caps;
+    font-weight: 900;
+
+}

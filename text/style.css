@@ -1,0 +1,38 @@
+#texts1{
+    color: yellow;
+    text-align: left;
+    text-decoration: overline underline wavy;
+    text-indent: 10px;
+    line-height: 50px;
+}
+#texts2{
+    color: blue;
+    text-align: right;
+    text-decoration: overline underline solid;
+    text-decoration-color: black;
+    text-indent: 1em;
+    letter-spacing: 2px;
+}
+#texts3{
+    color: rgba(0, 187, 255, 0.755);
+    text-align: justify;
+    text-decoration: line-through;
+    text-decoration-color: black;
+    text-transform: uppercase;
+    text-indent: 30px;
+    direction: rtl;
+}
+#texts4{
+    color: hsla(120, 60%, 70%, .8);
+    text-align: center;
+    text-transform: capitalize;
+    direction:ltr;
+    word-spacing: 5px;
+
+}
+#texts5{
+    color: rgba(12, 11, 10, .8);
+    text-align: left; /* default değer */
+    text-transform:lowercase;
+    text-shadow: 2px 4px 5px salmon;
+}
