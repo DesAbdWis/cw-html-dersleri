@@ -3,7 +3,7 @@
     padding:0px;
   }
   body {
-    background-image: url("background-img.jpg");
+    background-image: url("./imgs/background-img.jpg");
     color: white;
   }
   
@@ -79,3 +79,4 @@
     background: white;
     color: red;
   }
+  
